@@ -1,0 +1,10 @@
+insert into post(id, title, content, created) values (1, 'Test post1', 'Content 1','2020-05-22T04:00:00.123456789');
+insert into post(id, title, content, created) values (2, 'Test post2', 'Content 1','2020-05-22T04:00:00.123456789');
+insert into post(id, title, content, created) values (3, 'Test post3', 'Content 1','2020-05-22T04:00:00.123456789');
+insert into post(id, title, content, created) values (4, 'Test post4', 'Content 1','2020-05-22T04:00:00.123456789');
+insert into post(id, title, content, created) values (5, 'Test post5', 'Content 1','2020-05-22T04:00:00.123456789');
+insert into comment(id, post_id, content, created) values (1, 1 , 'Content 1111', '2020-05-22T04:00:00.123456789');
+insert into comment(id, post_id, content, created) values (2, 1,  'Content 1111', '2020-05-22T04:00:00.123456789');
+insert into comment(id, post_id, content, created) values (3, 2,  'Content 1111', '2020-05-22T04:00:00.123456789');
+insert into comment(id, post_id, content, created) values (4, 2,  'Content 1111', '2020-05-22T04:00:00.123456789');
+insert into comment(id, post_id, content, created) values (5, 2,  'Content 1111', '2020-05-22T04:00:00.123456789');
